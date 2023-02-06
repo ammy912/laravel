@@ -1,0 +1,56 @@
+body 
+{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+}
+.navbar-brand
+{
+    color: white;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 15px;
+}
+.navbar-link a 
+{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+#content 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+#example 
+{
+    top: 0 !important;
+    margin: 0;
+    padding: 0;
+ 
+}
